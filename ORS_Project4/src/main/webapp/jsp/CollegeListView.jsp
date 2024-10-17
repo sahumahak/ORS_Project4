@@ -1,4 +1,4 @@
-<%@page import="com.rays.pro4.Model.CollegeModel"%>
+ <%@page import="com.rays.pro4.Model.CollegeModel"%>
 <%@page import="com.rays.pro4.Model.UserModel"%>
 <%@page import="com.rays.pro4.Bean.CollegeBean"%>
 <%@page import="com.rays.pro4.Util.HTMLUtility"%>

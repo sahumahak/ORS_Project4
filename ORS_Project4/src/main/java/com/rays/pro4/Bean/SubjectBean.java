@@ -39,6 +39,7 @@ public class SubjectBean extends BaseBean{
 	public void setCourseName(String courseName) {
 		this.courseName = courseName;
 	}
+	@Override
 	public String getkey() {
 		// TODO Auto-generated method stub
 		return id+"";

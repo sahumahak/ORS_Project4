@@ -62,7 +62,7 @@ public class StudentBean extends BaseBean {
 	public void setCollegeName(String collegeName) {
 		this.collegeName = collegeName;
 	}
-	
+	@Override
 	public String getkey() {
 		return id+"";
 	}

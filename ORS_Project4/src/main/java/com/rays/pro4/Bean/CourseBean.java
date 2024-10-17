@@ -29,7 +29,7 @@ public class CourseBean extends BaseBean{
 	public void setDuration(String duration) {
 		this.duration = duration;
 	}
-	
+	@Override
 	public String getkey() {
 		return id+"";
 	}

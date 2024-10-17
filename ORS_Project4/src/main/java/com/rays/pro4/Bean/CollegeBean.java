@@ -45,12 +45,12 @@ public class CollegeBean extends BaseBean{
 	public void setPhoneNo(String phoneNo) {
 		this.phoneNo = phoneNo;
 	}
-	
+	@Override
 	public String getkey() {
 		// TODO Auto-generated method stub
 		return id+" ";
 	}
-	
+	@Override
 	public String getValue() {
 		// TODO Auto-generated method stub
 		return name;

@@ -69,7 +69,7 @@ public class TimeTableBean extends BaseBean{
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+	@Override
 	public String getkey() {
 		// TODO Auto-generated method stub
 		return id + "";
